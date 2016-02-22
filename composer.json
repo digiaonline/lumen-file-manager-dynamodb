@@ -1,0 +1,30 @@
+{
+  "name": "nordsoftware/lumen-file-manager-dynamodb",
+  "description": "DynamoDB module for lumen-file-manager.",
+  "keywords": [
+    "laravel",
+    "lumen",
+    "file-manager",
+    "dynamodb"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kenneth Söderlund",
+      "email": "kenneth.soderlund@nordsoftware.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "nordsoftware/lumen-file-manager": "^1.0",
+    "nordsoftware/lumen-dynamodb": "^0.2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nord\\Lumen\\FileManager\\DynamoDB\\": "src"
+    }
+  },
+  "require-dev": {
+    "laravel/lumen-framework": "^5.2"
+  }
+}
