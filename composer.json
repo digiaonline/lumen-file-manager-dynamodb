@@ -16,8 +16,8 @@
   ],
   "require": {
     "php": ">=5.5",
-    "nordsoftware/lumen-file-manager": "^1.0",
-    "nordsoftware/lumen-dynamodb": "^0.2.3"
+    "nordsoftware/lumen-dynamodb": "^0.3",
+    "nordsoftware/lumen-file-manager": "^1.0"
   },
   "autoload": {
     "psr-4": {
