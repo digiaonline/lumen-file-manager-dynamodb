@@ -16,8 +16,8 @@ return [
             ],
         ],
         'ProvisionedThroughput' => [
-            'ReadCapacityUnits'  => env('FILE_MANAGER_DYNAMODB_READ_CAPACITY_UNITS', 10),
-            'WriteCapacityUnits' => env('FILE_MANAGER_DYNAMODB_WRITE_CAPACITY_UNITS', 20),
+            'ReadCapacityUnits'  => (int) env('FILE_MANAGER_DYNAMODB_READ_CAPACITY_UNITS', 10),
+            'WriteCapacityUnits' => (int) env('FILE_MANAGER_DYNAMODB_WRITE_CAPACITY_UNITS', 20),
             'OnDemand'           => false,
         ],
     ],
